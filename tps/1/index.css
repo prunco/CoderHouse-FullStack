@@ -1,0 +1,305 @@
+* {
+	box-sizing:border-box;
+}
+
+body {
+	margin:0px;
+}
+
+.mainHeader {
+	height: 70px;
+	background: #C84742;
+}
+
+.mainHeader .content {
+max-width: 1140px;
+margin: 0px auto;
+position:relative;
+}
+
+@media screen and (max-width: 1140px){
+	
+	.mainHeader .content {
+	width: 100%;
+	margin: 0px auto;
+	position:relative;
+	padding-left: 25px;
+	padding-right: 25px;
+	}
+
+}
+
+.mainHeader .content .logo {
+	margin-top:10px;
+	display: inline-block;
+}
+
+.mainHeader .content .menu {
+	display: inline-block;
+	position: absolute;
+	top:26px;
+	right: 10px;
+}
+
+.mainHeader .content .menu .menuList {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	list-style: none;
+}
+
+.mainHeader .content .menu .menuList .menuItem {
+	display: inline-block;
+}
+
+.mainHeader .content .menu .menuList .menuItem:not(:last-child) {
+	margin-right:20px;
+}
+
+.mainHeader .content .menu .menuList .menuItem .link {
+	font-family: 'Helvetica', 'Arial', Sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	color: rgba(255,255,255,0.6);
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.mainHeader .content .menu .menuList .menuItem .link:hover {
+	color: rgba(255,255,255,1);
+}
+
+.main {
+	background: url(carouselitem4.jpg) 50% 50%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-filter: grayscale(100%);
+	height: 500px;
+}
+
+.main .banner {
+	overflow: hidden;
+	max-width: 1140px;
+	margin: 0px auto;
+	height:100%;
+	position: relative;
+}
+
+@media screen and (max-width: 1140px){
+	
+	.main {
+	width: 100%;
+	margin: 0px auto;
+	position:relative;
+	padding-left: 25px;
+	padding-right: 25px;
+	}
+
+}
+
+.main .banner .declaration {
+	display: inline-block;
+	position: absolute;
+	top:20%;
+	text-decoration: none;
+	list-style: none;
+	margin:0px auto;
+	padding: 0px;
+	font-family: 'Helvetica',Sans-serif;
+	font-size: 18px;
+	color:white;		
+}
+
+
+.main .banner .sliderMenu {
+	display: block;
+	width: 100%;
+	position:absolute;
+	bottom:20px;
+	text-align: center;
+}
+
+.intro {
+	overflow: hidden;
+	max-width: 1140px;
+	margin: 0px auto;
+	padding: 25px;
+	position: relative;
+}
+
+@media screen and (max-width: 1140px){
+	
+	.intro {
+	width: 100%;
+	margin: 0px auto;
+	position:relative;
+	}
+
+}
+
+.tituloPrincipal {
+	font-family: 'Helvetica', 'Arial', Sans-serif;
+	font-weight: 600;
+	font-size: 32px;
+	color: rgba(0,0,0,1);
+	text-decoration: none;
+	text-align: center;
+}
+
+.descripcion {
+	color:rgba(133, 133, 133,1);
+	font-family: 'Helvetica', 'Arial', Sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 20px;
+	text-align: center;
+}
+
+.myWork {
+	background:#E4E4E4;
+	width:100%;
+}
+
+.myWork .content {
+	max-width: 1140px;
+	margin: 0px auto;
+	padding: 25px;
+	position: relative;	
+}
+
+@media screen and (max-width: 1140px){
+	
+	.myWork, .myWork .content {
+	width: 100%;
+	margin: 0px auto;
+	position:relative;
+	}
+
+}
+
+.myWork .content .tituloSecundario {
+	font-family: 'Helvetica', 'Arial', Sans-serif;
+	font-weight: 600;
+	font-size: 28px;
+	color: rgba(0,0,0,1);
+	text-decoration: none;
+	text-align: center;	
+}
+
+.myWork .content .descripcionSecundaria {
+	color:rgba(133, 133, 133,1);
+	font-family: 'Helvetica', 'Arial', Sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	text-decoration: none;
+	line-height: 20px;
+	text-align: center;
+}
+
+.myWork .content .skills{
+display: flex;
+flex-direction:row;
+justify-content: center;
+flex-wrap:wrap;
+padding:0px;
+margin:0px;
+padding-top:20px;
+}
+
+
+.myWork .content .skills .skill{
+flex-grow:1;
+list-style: none;
+padding:0px;
+width:200px;
+margin-bottom:20px;
+margin-left:10px;
+margin-right:10px;
+}
+
+.myWork .content .skills .skill .iconoSkill{
+	display:block;
+	margin:20px auto;
+	margin-bottom:0px;
+}
+
+.myWork .content .skills .skill .tituloSkill{
+font-family: 'Helvetica', Sans-serif;
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+margin-top:10px;
+}
+
+.myWork .content .skills .skill .descripcionSkill{
+background:rgba(240,240,240,1);
+padding:20px;
+margin:0px;
+}
+
+.myWork .content .skills .skill .encabezadoSkill{
+	background:rgba(255,255,255,1);
+	overflow: hidden;
+}
+
+.capacidades {
+	background:rgba(255,255,255,1);
+	width:100%;
+}
+
+.capacidades .content {
+	max-width: 1140px;
+	margin: 0px auto;
+	padding: 25px;
+	position: relative;	
+}
+
+.capacidades .content .listadoCapacidades {
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+	flex-wrap:wrap;
+	width:100%;
+}
+
+.capacidades .content .listadoCapacidades .capacidadItem {
+	flex-grow:1;	
+	width:300px;
+	display:inline;
+	padding:20px;
+}
+
+.capacidades .content .listadoCapacidades .capacidadItem .capacidadProgramar .descripcionCapacidad, .capacidades .content .listadoCapacidades .capacidadItem .capacidadDiseno .descripcionCapacidad{
+	color:rgba(133, 133, 133,1);
+	font-family: 'Helvetica', 'Arial', Sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 20px;
+	text-align: left;
+}
+
+.capacidades
+.content
+.listadoCapacidades
+.capacidadItem
+.capacidadProgramar
+.descripcionCapacidad
+.listadoSkillPuntuales,
+.capacidades
+.content
+.listadoCapacidades
+.capacidadItem
+.listadoSkillsPuntuales {
+	margin: 0px;
+	padding:0px;
+	list-style: none;
+}
+
+.capacidades .content .listadoCapacidades .capacidadItem .capacidadProgramar .descripcionCapacidad .listadoSkillPuntuales .itemSkillsPuntuales, .capacidades .content .listadoCapacidades .capacidadItem .listadoSkillsPuntuales .itemSkillsPuntuales{
+	
+}
