@@ -1,27 +1,25 @@
-#Clase 1 (HTML - Semántica - Jerarquía - Introducción a CSS )
+#Clase 1 (CSS)
 
 - Agenda
-	- Presentación de profesor
-	- Presentación de alumnos. ¿Que hacen? Expectativas.
-	- Modalidad y objetivos del curso
-	- ¿Cómo funciona la web?
-	- HTML
-		- ¿Qué es?
-		- ¿Que papel juega en una web?
-		- Semántica - ¿Por qué es importante?
-		- Tags
-		- TP en clase. Primera parte de html.png
-	- CSS
-		- Introducción.	
-- TP: tarea. HTML completo de html.png (IMPORTANTE: Nada de CSS. Recordar solo concentrarse en la estructura de información y la semántica y no en cómo se vé.)
+	- Devolución de TPs HTML
+		- Abstracción de la parte visual
+	- Repaso proceso de diseño de una app
+		- Mockup
+		- Front + Navegacion (Logicless)
+		- Front + Mockups (Backendless)
+		- Back
+	- CSS (avance de html.png)
+		- Como funciona CSS en el browser
+		- Selectores
+		- Propiedades
+		- Medidas relativas
+		- Medidas absolutas
+		- Valores de colores 
+		- Float
+		- Centrado vertical
+		- Display
+		- Position
+		- Layouts
+		- Grillas
+- TP: tarea. HTML & CSS completo de css.png 
 - Links: 
-	- [Sublime text](http://www.sublimetext.com/)
-	- [Tips para sublime](http://code.tutsplus.com/tutorials/sublime-text-2-tips-and-tricks-updated--net-21519)
-	- [Para intalar plugins en Sublime](https://packagecontrol.io/installation)
-	- [Plugin para trabajar mas facil con HTML](https://packagecontrol.io/packages/Emmet)
-	- [Intro a HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction) 
-	- [HTML Forms](https://developer.mozilla.org/es/docs/Web/Guide/HTML/Forms)
-	- [Listado de tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
-	- [Para chequear compatibilidad con browsers](http://caniuse.com/)
-	- [Validación nativa de formularios](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Data_form_validation)
-	- [Introducción a selectores CSS](https://css-tricks.com/how-css-selectors-work/)
